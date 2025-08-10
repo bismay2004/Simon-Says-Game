@@ -11,6 +11,13 @@ document.addEventListener("keydown",function(){
         levelUp();
     }
 });
+document.addEventListener("touchstart", function(){
+     if (started === false) {
+        started = true;
+        levelUp();
+    }
+});
+
 function btnFlash(btn){
     btn.classList.add("flash"); 
      setTimeout(function(){
@@ -100,3 +107,4 @@ let fbtn= document.querySelector(".button-89");
 fbtn.addEventListener("click", function() {
     window.location.href = 'back.html';
 });
+
