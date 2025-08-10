@@ -22,6 +22,9 @@ h1{
 h3{
     font-size: 1.7rem;font-weight: 100;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(162, 140, 140);
 }
+h3 .b {
+    display: none;
+}
 #game-container {
     display: flex;
     margin-top: 4rem;
@@ -243,7 +246,12 @@ body {
         overflow:auto;
         
     }
-    
+     h3 .b {
+    display: inline;
+}
+h3 .a {
+    display: none;
+}
     
 }
 
@@ -259,7 +267,9 @@ body {
     margin-top: 5rem;
     justify-content: center;
 }   
-
+ body .upr{
+    margin-top: 20rem;
+ }
 }
 
 
